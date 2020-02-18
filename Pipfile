@@ -1,0 +1,44 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = ">=3.4.0"
+ipython = ">=6.2.1"
+ipdb = ">=0.10.3"
+flask-debugtoolbar = ">=0.10.1"
+pytest-flask = ">=0.10.0"
+codecov = ">=2.0.15"
+pytest-cov = ">=2.5.1"
+flake8 = ">=3.5.0"
+flake8-bugbear = ">=18.2.0"
+isort = ">=4.3.3"
+twine = ">=1.9.1"
+flask = ">=1.0"
+logzero = "*"
+
+[packages]
+flask = ">=1.0.2"
+import-string = ">=0.1.0"
+flask-admin = ">=1.5.0"
+wtforms-components = ">=0.10.3"
+pymongo = "==2.4.1"
+tinymongo = ">=0.2.0"
+tinydb-serialization = ">=1.0.4"
+manage = ">=0.1.13"
+dynaconf = ">=1.0.0"
+quokka-flask-htmlbuilder = ">=0.13"
+awesome-slugify = ">=1.6.5"
+flask-babelex = ">=0.9.3"
+mistune = ">=0.8.3"
+flask-simplelogin = ">=0.0.6"
+frozen-flask = ">=0.15"
+pillow = ">=5.0.0"
+pyrss2gen = ">=1.1"
+requests = ">=2.18.4"
+pygments = ">=2.2.0"
+six = ">=1.11.0"
+
+[requires]
+python_version = "3.6"

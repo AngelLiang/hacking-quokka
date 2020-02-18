@@ -88,4 +88,6 @@ docs/book
 
 .eggs
 
-README.rst
+
+.venv
+.vscode

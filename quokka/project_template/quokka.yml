@@ -1,6 +1,4 @@
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-## ▓▓▓▒▒▒░░░                  QUOKKA CMS CONFIG FILE                 ░░░▒▒▒▓▓▓
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+## QUOKKA CMS CONFIG FILE
 
 ## This is the default `quokka.yml` for your Quokka Project
 ##
@@ -16,9 +14,9 @@
 ## exporting your settings keys as env vars prefixed with `QUOKKA_`
 ## ex: `export QUOKKA_SECRET_KEY="secret-here"
 
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-## ▓▓▓▒▒▒░░░                     THEME VARIABLES                     ░░░▒▒▒▓▓▓
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+###################
+## THEME VARIABLES
+###################
 
 ## Global Static variables to bound to pelican themes
 ## TIP: `export QUOKKA_THEME_SITENAME=FooBar` also works
@@ -155,9 +153,7 @@ THEME:
     FEED_ALL_RSS: index/index.rss
     FEED_ALL_ATOM: index/index.atom
 
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-## ▓▓▓▒▒▒░░░                 THEME SPECIFIC VARIABLES                ░░░▒▒▒▓▓▓
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+## THEME SPECIFIC VARIABLES
 
 ## Theme specific variables named THEME_<THEMENAME>
 ## If you change to i.e: THEME_ACTIVE=eeve create a section called
@@ -388,9 +384,8 @@ THEME_OCTOPRESS:
     # ARTICLE_ASIDES: ['social_icons', 'image', 'recentpost', 'categories', 'tags', 'github', 'social', 'links', 'twitter', 'gplus', 'google_adsense']
     DISPLAY_TAGS: false
 
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-## ▓▓▓▒▒▒░░░                       DEV SETTINGS                      ░░░▒▒▒▓▓▓
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+## DEV SETTINGS
+
 ## This values are loaded when --envmode=dev is passed
 ## or env var QUOKKA_ENVMODE=dev
 ## TIP: Export envvars with `dev` to overload this.
@@ -420,9 +415,7 @@ DEV:
     - flask_debugtoolbar.panels.profiler.ProfilerDebugPanel
     - flask_debugtoolbar.panels.config_vars.ConfigVarsDebugPanel
 
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-## ▓▓▓▒▒▒░░░                       MAIN SETTINGS                     ░░░▒▒▒▓▓▓
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+## MAIN SETTINGS
 ## All values under QUOKKA: env are the main default settings
 
 QUOKKA:
@@ -680,9 +673,7 @@ QUOKKA:
   #   - jane Doe
 
 
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-## ▓▓▓▒▒▒░░░                  MANAGE SHELL SETTINGS                  ░░░▒▒▒▓▓▓
-## ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+## MANAGE SHELL SETTINGS
 
 ## [< --- MANAGE SHELL --->]
 ## The following sections controls how `quokka` command line works
